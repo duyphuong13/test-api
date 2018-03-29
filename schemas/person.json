@@ -8,6 +8,9 @@
         "lastName": {
             "type": "string"
         },
+        "address": {
+            "type": "string"
+        },
         "age": {
             "description": "Age in years",
             "type": "integer",
