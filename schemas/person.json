@@ -5,6 +5,9 @@
         "firstName": {
             "type": "string"
         },
+        "middleName": {
+            "type": "string"
+        },
         "lastName": {
             "type": "string"
         },
