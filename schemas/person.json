@@ -12,8 +12,7 @@
             "type": "string"
         },
         "phoneNumber": {
-            "type": "integer",
-            "minimum": 0
+            "type": "string"
         },
         "age": {
             "description": "Age in years",
