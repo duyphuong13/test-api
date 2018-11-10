@@ -6,8 +6,6 @@
 
 Get a user to access to the platform, default permission is client member
 
----
-
 |                                       |                                                 |
 | ------------------------------------- | ----------------------------------------------- |
 | HTTP Method                           | GET ALL                                         |
@@ -24,8 +22,6 @@ Get a user to access to the platform, default permission is client member
 | Firewalls Details                     | N/A                                             |
 | Security Certificate Details          | N/A                                             |
 | Vendor or Partner Considerations      | N/A                                            |
-
----
 
 ## Request Payloads
 
