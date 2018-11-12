@@ -9,7 +9,7 @@ Get a user to access to the platform, default permission is client member
 |                                       |                                                 |
 | ------------------------------------- | ----------------------------------------------- |
 | HTTP Method                           | Get                                         |
-| API                                   | Vehicle\\Management                                           |
+| API                                   | Vehicle <br> Management                                           |
 | Api Version                           | 2.0.0.10                                         |
 | Resource Version                      | 3                                               |
 | Summary                               | Get all vehicles by country                                      |
