@@ -9,7 +9,7 @@ Get a user to access to the platform, default permission is client member
 |                                       |                                                 |
 | ------------------------------------- | ----------------------------------------------- |
 | HTTP Method                           | Get                                         |
-| API                                   | Vehicle <br> Management                                           |
+| API                                   | Vehicle Management                                           |
 | Api Version                           | 2.0.0.10                                         |
 | Resource Version                      | 3                                               |
 | Summary                               | Get all vehicles by country                                      |
@@ -36,9 +36,9 @@ N/A
 
 | Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
-| limit |  N/A |  -   | No | No | No | No | Data Type: object | 
-| offset |  N/A |  -   | No | No | No | No | Data Type: object | 
-
+| limit | - |  -   |  No | No | Yes | 100 | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
+        | offset | - |  -   |  No | No | Yes | 0 | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
+        
 
 ---
 
