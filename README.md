@@ -27,24 +27,16 @@ Get a user to access to the platform, default permission is client member
 
 ### Request Header
 
-
-
 N/A
 ---
 
 
-
 | Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
-
 | limit |  N/A |  -   | No | No | No | No | Data Type: object |
-
 | offset |  N/A |  -   | No | No | No | No | Data Type: object |
 
-      
-
 ---
-
 
 N/A
 
