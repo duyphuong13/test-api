@@ -28,7 +28,6 @@ Get a user to access to the platform, default permission is client member
 ### Request Header
 
 
-
 N/A
 ---
 
@@ -36,8 +35,7 @@ N/A
 
 
 
-
-| Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
+| Parameter | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
 | limit | - |  -   |  No | No | Yes | 100 | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
 | offset | - |  -   |  No | No | Yes | 0 | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
@@ -47,51 +45,87 @@ N/A
 
 ### Request Body
 
-
-
 N/A
 
-#### Json sample
-```
-{
-"response1": "",
-"response2": ""
-}
-```
-#### Json schema
-
-```
-{
-"type": "object",
-"title": "dddd_0_200_Payload_6715e021-8d2f-42e3-94d2-e0ea2e7bfe81",
-"properties": {
-"response1": {
-"type": "string",
-"title": "response1"
-},
-"response2": {
-"type": "string",
-"title": "response2"
-}
-}
-}
-```
 ---
 
 ## Response Payloads
 
 ### Response Header
 
-| Parameter     | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details            |
-| ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
-| Administrator |    -    |      - | No  | No              | No        | No      | Data Type : object |
-|               |         |        |     |                 |           |         |                    |
 
+N/A
 ---
 
 ### Response Body
 
-| Parameter     | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details            |
+#### Payload 
+
+
+
+| Parameter | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
-| Administrator |    -    |      - | No  | No              | No        | No      | Data Type : object |
-|               |         |        |     |                 |           |         |                    |
+|  | - |  -   |  No | No | No |  -  |  |
+|  | - |  -   |  No | No | No |  -  |  |
+| name | - | Martin bike  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
+| type | - | bike  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
+| country | - | Vietnam  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
+
+
+
+
+#### Json sample
+```
+[
+  [
+    {
+      "name": "Martin bike",
+      "type": "bike",
+      "country": "Vietnam"
+    }
+  ]
+]
+```
+
+
+
+#### Json Schema
+```
+{
+  "type": "array",
+  "items": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "name",
+          "examples": [
+            "Martin bike"
+          ],
+          "description": "<p>name of the vehicle</p>"
+        },
+        "type": {
+          "type": "string",
+          "title": "type",
+          "examples": [
+            "bike"
+          ],
+          "description": "<p>type of vehicle</p>"
+        },
+        "country": {
+          "type": "string",
+          "title": "country",
+          "examples": [
+            "Vietnam"
+          ],
+          "description": "<p>country of the vehicle</p>"
+        }
+      }
+    },
+    "title": ""
+  }
+}
+```
+
