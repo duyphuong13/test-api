@@ -8,16 +8,16 @@ Get a user to access to the platform, default permission is client member
 
 |                                       |                                                 |
 | ------------------------------------- | ----------------------------------------------- |
-| HTTP Method                           | GET ALL                                         |
-| API                                   | Users                                           |
-| Api Version                           | 2.0.0.3                                         |
+| HTTP Method                           | Get                                         |
+| API                                   | Vehicle Management                                           |
+| Api Version                           | 2.0.0.10                                         |
 | Resource Version                      | 3                                               |
-| Summary                               | Get users                                       |
-| Description Version                   | Returns a list of users for the specified user. |
-| Base Path                             | /v2/users/                                      |
-| Resource                              | Get Users                                       |
-| Endpoint URL                          | https://api-dev.test.com/v2/users/              |
-| Service Status                        | Unknown                                         |
+| Summary                               | Get all vehicles by country                                      |
+| Description Version                   | N/A |
+| Base Path                             | /v2/vehicleManagement/vehicles/                                     |
+| Resource                              | Get all vehicles by country                                      |
+| Endpoint URL                          | https://api-dev.universalgalaxy.co/v2/vehicleManagement/vehicles/              |
+| Service Status                        | N/A                                         |
 | Legislative / Regulatory / Compliance | N/A                                             |
 | Firewalls Details                     | N/A                                             |
 | Security Certificate Details          | N/A                                             |
@@ -27,38 +27,26 @@ Get a user to access to the platform, default permission is client member
 
 ### Request Header
 
-| Parameter     | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details            |
+
+
+N/A
+---
+
+
+
+| Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
-| This is table description |    -    |      - | No  | No              | No        | No      | Data Type : object |
-|               |         |        |     |                 |           |         |                    |
+
+| limit |  N/A |  -   | No | No | No | No | Data Type: object |
+
+| offset |  N/A |  -   | No | No | No | No | Data Type: object |
+
+      
 
 ---
-#### Json sample
-```
-{
-"response1": "",
-"response2": ""
-}
-```
-#### Json schema
 
-```
-{
-"type": "object",
-"title": "dddd_0_200_Payload_6715e021-8d2f-42e3-94d2-e0ea2e7bfe81",
-"properties": {
-"response1": {
-"type": "string",
-"title": "response1"
-},
-"response2": {
-"type": "string",
-"title": "response2"
-}
-}
-}
-```
 
+N/A
 
 ### Query Params
 
