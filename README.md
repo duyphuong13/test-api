@@ -27,7 +27,15 @@ Get a user to access to the platform, default permission is client member
 
 ### Request Header
 
+
+
 N/A
+---
+
+### Query Params
+
+
+
 
 | Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
@@ -37,24 +45,11 @@ N/A
 
 ---
 
-
-N/A
-
-### Query Params
-
-| Parameter     | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details            |
-| ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
-| Administrator |    -    |      - | No  | No              | No        | No      | Data Type : object |
-|               |         |        |     |                 |           |         |                    |
-
----
-
 ### Request Body
 
-| Parameter     | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details            |
-| ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
-| Administrator |    -    |      - | No  | No              | No        | No      | Data Type : object |
-|               |         |        |     |                 |           |         |                    |
+
+
+N/A
 
 #### Json sample
 ```
