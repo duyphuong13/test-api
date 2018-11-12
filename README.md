@@ -37,8 +37,8 @@ N/A
 | Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
 | limit | - |  -   |  No | No | Yes | 100 | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
-        | offset | - |  -   |  No | No | Yes | 0 | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
-        
+| offset | - |  -   |  No | No | Yes | 0 | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
+
 
 ---
 
