@@ -1,6 +1,6 @@
 # User Resources
 
-DELETE /v2/vehicleManagement/
+GET /v2/vehicleManagement/vehicles/
 
 ## Description
 
@@ -8,15 +8,15 @@ Get a user to access to the platform, default permission is client member
 
 |                                       |                                                 |
 | ------------------------------------- | ----------------------------------------------- |
-| HTTP Method                           | Delete                                         |
+| HTTP Method                           | Get                                         |
 | API                                   | Vehicle Management                                           |
 | Api Version                           | 2.0.0.10                                         |
-| Resource Version                      | 7                                               |
-| Summary                               | N/A                                      |
-| Description Version                   | N/A |
-| Base Path                             | /v2/vehicleManagement/                                     |
-| Resource                              | Destroy vehicles                                      |
-| Endpoint URL                          | https://api-dev.universalgalaxy.co/v2/vehicleManagement/              |
+| Resource Version                      | 3                                               |
+| Summary                               | Get all vehicles by country                                      |
+| Description Version                   |  -  |
+| Base Path                             | /v2/vehicleManagement/vehicles/                                     |
+| Resource                              | Get all vehicles by country                                      |
+| Endpoint URL                          | https://api-dev.universalgalaxy.co/v2/vehicleManagement/vehicles/              |
 | Service Status                        | Unknown                                         |
 | Legislative / Regulatory / Compliance |                                             |
 | Firewalls Details                     |                                              |
@@ -28,12 +28,7 @@ Get a user to access to the platform, default permission is client member
 ### Request Header
 
 
-
-| Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
-| ------------- | :-----: | :-----: | :---: | :---------------: | :---------: | :-------: | ------------------ |
-| sssss | - |  -   |  No | No | Yes |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
-
-
+N/A
 ---
 
 ### Query Params
@@ -42,7 +37,8 @@ Get a user to access to the platform, default permission is client member
 
 | Parameter | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | ------------- | :-----: | :-----: | :---: | :---------------: | :---------: | :-------: | ------------------ |
-| xxxx | - |  -   |  No | No | Yes |  -  | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
+| limit |  -  |  -   |  No | No | Yes | 100 | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
+| offset |  -  |  -   |  No | No | Yes | 0 | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
 
 
 ---
@@ -58,12 +54,7 @@ N/A
 ### Response Header
 
 
-
-| Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
-| ------------- | :-----: | :-----: | :---: | :---------------: | :---------: | :-------: | ------------------ |
-| xxxx | - |  -   |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
-
-
+N/A
 ---
 
 ### Response Body
@@ -74,16 +65,24 @@ N/A
 
 | Parameter | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | :----- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :----- |
-| id | - | 81X1-03192  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
+| name | name of the vehicle | Martin bike  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
+| type | type of vehicle | bike  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
+| country | country of the vehicle | Vietnam  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
 
 
 
 
 #### Json sample
 ```
-{
-  "id": "81X1-03192"
-}
+[
+  [
+    {
+      "name": "Martin bike",
+      "type": "bike",
+      "country": "Vietnam"
+    }
+  ]
+]
 ```
 
 
@@ -91,16 +90,39 @@ N/A
 #### Json Schema
 ```
 {
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "string",
-      "title": "id",
-      "examples": [
-        "81X1-03192"
-      ],
-      "description": "<p>Identification&nbsp;Data of vehicle</p>"
-    }
+  "type": "array",
+  "items": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "name",
+          "examples": [
+            "Martin bike"
+          ],
+          "description": "<p>name of the vehicle</p>"
+        },
+        "type": {
+          "type": "string",
+          "title": "type",
+          "examples": [
+            "bike"
+          ],
+          "description": "<p>type of vehicle</p>"
+        },
+        "country": {
+          "type": "string",
+          "title": "country",
+          "examples": [
+            "Vietnam"
+          ],
+          "description": "<p>country of the vehicle</p>"
+        }
+      }
+    },
+    "title": ""
   }
 }
 ```
