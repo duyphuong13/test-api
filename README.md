@@ -1,6 +1,6 @@
 # User Resources
 
-GET users/:id/
+Get /v2/vehicleManagement/vehicles/
 
 ## Description
 
@@ -64,7 +64,7 @@ N/A
 
 
 | Parameter | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
-| ------------- | :-----: | -----: | --- | --------------- | --------- | ------- | ------------------ |
+| :----- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :----- |
 |  | - |  -   |  No | No | No |  -  |  |
 |  | - |  -   |  No | No | No |  -  |  |
 | name | - | Martin bike  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
