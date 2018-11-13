@@ -1,6 +1,6 @@
 # User Resources
 
-DELETE /v2/vehicleManagement/
+DELETE /v1/vehicleManagement/
 
 ## Description
 
@@ -10,13 +10,13 @@ Get a user to access to the platform, default permission is client member
 | ------------------------------------- | ----------------------------------------------- |
 | HTTP Method                           | Delete                                         |
 | API                                   | Vehicle Management                                           |
-| Api Version                           | 2.0.0.10                                         |
-| Resource Version                      | 7                                               |
+| Api Version                           | 1.0.0.4                                         |
+| Resource Version                      | 2                                               |
 | Summary                               |  -                                       |
 | Description Version                   |  -  |
-| Base Path                             | /v2/vehicleManagement/                                     |
+| Base Path                             | /v1/vehicleManagement/                                     |
 | Resource                              | Destroy vehicles                                      |
-| Endpoint URL                          | https://api-dev.universalgalaxy.co/v2/vehicleManagement/              |
+| Endpoint URL                          | https://api-dev.universalgalaxy.co/v1/vehicleManagement/              |
 | Service Status                        | Unknown                                         |
 | Legislative / Regulatory / Compliance |                                             |
 | Firewalls Details                     |                                              |
@@ -28,23 +28,13 @@ Get a user to access to the platform, default permission is client member
 ### Request Header
 
 
-
-| Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
-| ------------- | :-----: | :-----: | :---: | :---------------: | :---------: | :-------: | ------------------ |
-| sssss |  -  |  -   |  No | No | Yes |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
-
-
+N/A
 ---
 
 ### Query Params
 
 
-
-| Parameter | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
-| ------------- | :-----: | :-----: | :---: | :---------------: | :---------: | :-------: | ------------------ |
-| xxxx |  -  |  -   |  No | No | Yes |  -  | Data Type : integer<br> Mininum :  - <br> Exclusive Minimum : No<br> Maximum :  - <br> Exclusive Maximum : No<br> Multiple Of :  - <br>  |
-
-
+N/A
 ---
 
 ### Request Body
@@ -58,12 +48,7 @@ N/A
 ### Response Header
 
 
-
-| Header | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
-| ------------- | :-----: | :-----: | :---: | :---------------: | :---------: | :-------: | ------------------ |
-| xxxx |  -  |  -   |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
-
-
+N/A
 ---
 
 ### Response Body
