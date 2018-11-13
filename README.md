@@ -1,10 +1,10 @@
-# User Resources
+# Get all vehicles by country - GET ALL
 
 GET /v2/vehicleManagement/vehicles/
 
 ## Description
 
-Get a user to access to the platform, default permission is client member
+ - 
 
 |                                       |                                                 |
 | ------------------------------------- | ----------------------------------------------- |
@@ -13,7 +13,6 @@ Get a user to access to the platform, default permission is client member
 | Api Version                           | 2.0.0.10                                         |
 | Resource Version                      | 3                                               |
 | Summary                               | Get all vehicles by country                                      |
-| Description Version                   |  -  |
 | Base Path                             | /v2/vehicleManagement/vehicles/                                     |
 | Resource                              | Get all vehicles by country                                      |
 | Endpoint URL                          | https://api-dev.universalgalaxy.co/v2/vehicleManagement/vehicles/              |
