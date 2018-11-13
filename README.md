@@ -65,8 +65,6 @@ N/A
 
 | Parameter | Meaning | Sample | PII | Unique Identify | Mandatory | Default | Details |
 | :----- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :----- |
-|  | - |  -   |  No | No | No |  -  |  |
-|  | - |  -   |  No | No | No |  -  |  |
 | name | - | Martin bike  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
 | type | - | bike  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
 | country | - | Vietnam  |  No | No | No |  -  | Data Type : string<br> Min. length :  - <br> Max. length : No<br> Regex :  - <br>  |
